@@ -13,15 +13,15 @@ def numberToBase(n, b):
         for k, x in enumerate(digits):
             kh += x * 10**(len(digits)-1-k)
         return kh
-u=0
-res=0
-wnum1=[]
-qbase1=[]
+u = 0
+res = 0
+wnum1 = []
+qbase1 = []
 while True:
     w,q=map(int,input().split())
     wnum1.append(w)
     qbase1.append(q)
-    if w ==-1:
+    if w == -1:
         break    
 stop = True
 qbase1.pop(-1)    
@@ -34,8 +34,8 @@ for i in qbase1 :
 if stop:
     for i1,i in enumerate(wnum1):
         for j in range(1,i+1):
-            if i%j==0:
-                res+=j
+            if i%j == 0:
+                res += j
         u+=numberToBase(res,qbase1[i1])
         res=0     
     print(u)
