@@ -7,7 +7,7 @@ for i in range(0,q):
 for i in list(set(e)):
     r = list(i)
     for j1, j in enumerate(r):
-          if j !='@':
+          if j != '@':
             l += 1
           elif j == '@':
               l+=1
