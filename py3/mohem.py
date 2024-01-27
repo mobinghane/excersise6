@@ -1,5 +1,5 @@
-q=int(input())
-e=[]
+q = int(input())
+e = []
 l = 0
 f = []
 for i in range(0,q):
@@ -10,7 +10,7 @@ for i in list(set(e)):
           if j !='@':
             l += 1
           elif j == '@':
-              l+=1
+              l += 1
               break
     for k in range(l):
         r.pop(0)
