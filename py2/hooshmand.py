@@ -21,7 +21,7 @@ while True:
     w,q=map(int,input().split())
     wnum1.append(w)
     qbase1.append(q)
-    if w ==-1:
+    if w == -1:
         break    
 stop = True
 qbase1.pop(-1)    
