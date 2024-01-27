@@ -1,6 +1,6 @@
 import re
-z= []
-x= []
+z = []
+x = []
 #words = '!10 o4 g6 l3 l2 u7 H0 /5 y8 e1 s9'
 t = re.split('\s', input())
 l = 0
